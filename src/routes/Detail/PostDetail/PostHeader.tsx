@@ -17,36 +17,16 @@ const PostHeader: React.FC<Props> = ({ data }) => {
       {data.type[0] !== "Paper" && (
         <nav>
           <div className="top">
-            {data.author && data.author[0] && data.author[0].name && (
-              <>
-                <div className="author">
-                  <Image
-                    css={{ borderRadius: "50%" }}
-                    src={data.author[0].profile_photo || CONFIG.profile.image}
-                    alt="profile_photo"
-                    width={24}
-                    height={24}
-                  />
-                  <div className="">{data.author[0].name}</div>
-                </div>
-                <div className="hr"></div>
-              </>
-            )}
+            <div className="author">
+              <div className="">Rory</div>
+            </div>
+            <div className="hr"></div>
             <div className="date">
               {formatDate(
                 data?.date?.start_date || data.createdTime,
                 CONFIG.lang
               )}
             </div>
-          </div>
-          <div className="mid">
-            {data.tags && (
-              <div className="tags">
-                {data.tags.map((tag: string) => (
-                  <Tag key={tag}>{tag}</Tag>
-                ))}
-              </div>
-            )}
           </div>
           {data.thumbnail && (
             <div className="thumbnail">
@@ -73,8 +53,10 @@ const StyledWrapper = styled.div`
     font-weight: 700;
   }
   nav {
-    margin-top: 1.5rem;
-    color: ${({ theme }) => theme.colors.gray11};
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    font-size: 0.875rem;
+    color: ${({ theme }) => theme.colors.gray10};
     > .top {
       display: flex;
       margin-bottom: 0.75rem;
@@ -102,6 +84,7 @@ const StyledWrapper = styled.div`
     }
     > .mid {
       display: flex;
+      margin-top: 1rem;
       margin-bottom: 1rem;
       align-items: center;
       .tags {

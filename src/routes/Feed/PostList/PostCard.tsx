@@ -47,12 +47,6 @@ const PostCard: React.FC<Props> = ({ data }) => {
           <div className="summary">
             <p>{data.summary}</p>
           </div>
-          <div className="tags">
-            {data.tags &&
-              data.tags.map((tag: string, idx: number) => (
-                <Tag key={idx}>{tag}</Tag>
-              ))}
-          </div>
         </div>
       </article>
     </StyledWrapper>

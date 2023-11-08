@@ -118,7 +118,15 @@ const StyledWrapper = styled.div`
   .notion-collection-page-properties {
     display: none !important;
   }
+
   .notion-page {
+    width: 100%;
     padding: 0;
+    margin: 0;
+  }
+
+  blockquote.notion-quote {
+    font-size: 16px !important;
+    background-color: rgb(244, 244, 245) !important;
   }
 `
