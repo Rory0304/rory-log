@@ -59,7 +59,7 @@ const StyledWrapper = styled.div`
     color: ${({ theme }) => theme.colors.gray10};
     > .top {
       display: flex;
-      margin-bottom: 0.75rem;
+      margin-bottom: 2.5rem;
       gap: 0.75rem;
       align-items: center;
       .author {
