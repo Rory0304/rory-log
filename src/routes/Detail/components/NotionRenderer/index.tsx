@@ -119,10 +119,10 @@ const StyledWrapper = styled.div`
   }
 
   .notion-list-numbered {
-    padding-left: 0;
+    padding-left: 1rem;
   }
 
-  .notion-inline-underscore{
+  .notion-inline-underscore {
     text-underline-offset: 4px;
   }
 
