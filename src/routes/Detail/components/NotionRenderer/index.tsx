@@ -133,7 +133,7 @@ const StyledWrapper = styled.div`
   }
 
   .notion-hr {
-    border-top: 1px solid;
+    border-top: 1px solid hsl(0, 0%, 88.7%);
   }
 
   blockquote.notion-quote {
