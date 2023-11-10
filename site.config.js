@@ -12,18 +12,18 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `rory-logs`,
-      href: "https://github.com/Rory0304/rory-logs",
+      name: `rory-log`,
+      href: "https://github.com/Rory0304/rory-log",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "rory-logs",
-    description: "welcome to rory-logs!",
+    title: "rory-log",
+    description: "welcome to rory-log!",
   },
 
   // CONFIG configration (required)
-  link: "https://rory-logs.vercel.app",
+  link: "https://rory-log.vercel.app",
   since: 2023, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
