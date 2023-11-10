@@ -57,6 +57,6 @@ const StyledWrapper = styled.div`
   margin: 0 auto;
   > article {
     margin: 0 auto;
-    max-width: 48rem;
+    max-width: 42rem;
   }
 `

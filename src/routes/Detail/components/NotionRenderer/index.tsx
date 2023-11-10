@@ -132,6 +132,10 @@ const StyledWrapper = styled.div`
     margin: 0;
   }
 
+  .notion-hr {
+    border-top: 1px solid;
+  }
+
   blockquote.notion-quote {
     font-size: 16px !important;
     background-color: rgb(244, 244, 245) !important;
