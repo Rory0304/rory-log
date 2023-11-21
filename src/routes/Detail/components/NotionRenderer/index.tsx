@@ -124,6 +124,10 @@ const StyledWrapper = styled.div<{ scheme: Scheme }>`
     border-top: 1px solid hsl(0, 0%, 88.7%);
   }
 
+  .notion-inline-code {
+    display: inline-block;
+  }
+
   blockquote.notion-quote {
     font-size: 16px !important;
     background-color: ${({ scheme }) =>
