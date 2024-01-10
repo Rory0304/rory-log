@@ -106,6 +106,11 @@ const StyledWrapper = styled.div<{ scheme: Scheme }>`
     display: none !important;
   }
 
+  .notion-list {
+    max-width: 100%;
+    overflow-x: scroll;
+  }
+
   .notion-list-numbered {
     padding-left: 1rem;
   }
